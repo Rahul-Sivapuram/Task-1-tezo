@@ -1,0 +1,550 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 8.438rem;
+    margin-right: 80px;
+    overflow-x: hidden;
+}
+
+header{
+    margin-top: 2rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-rightpart{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.navheader a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 1.2rem;
+    text-decoration: none;
+}
+
+.header .header-rightpart .sign-up{
+    background-color: white;
+    padding: .5rem 1rem .5rem 1rem;
+    margin-right: .5rem;
+    border-radius: .25rem;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.header .header-rightpart .signup p{
+    margin: .5rem;
+}
+
+.header #languages{
+    border: none;
+    outline:none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*Travel*/
+.Travel-row{
+    margin-top: 1.7rem;
+    margin-bottom: 6rem;
+    display: flex;
+}
+
+.Travel-image img{
+    width: 100%;
+}
+
+.Travel-content h5{
+    color: rgb(227, 131, 6);
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.Travel-content h1{
+    color: #181E4B;
+    font-size: 4rem;
+    line-height:1;
+    margin: 0;
+}
+
+.Travel-content p{
+    margin: 0;
+    font-size: .8rem;
+   
+}
+.Travel-content{
+    width: 100%;
+}
+
+.findout{
+    background-color: #F1A501;
+    border:none;
+    color: white;
+    font-size: 1rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    padding: .5rem;
+    height: 3rem;
+    box-shadow:0 4px 2px #F1A501;
+}
+
+/*category*/
+.category-row{
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.category{
+    margin-top: 5rem;
+    position: relative;
+    z-index: 3;
+}
+.category-plusimage{
+    position: absolute;
+    left: 87%;
+    z-index: 1;
+}
+.category-flightcard-image img{
+    height: 6rem;
+}
+.category-card{ 
+    background-color: white;
+    padding: 2rem 1rem 0 1rem;
+    width: 13.813rem;
+    height: 17.5rem;
+    margin-top: 4rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.category-card:hover{
+    box-shadow: rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.4) 0px 10px 10px -5px;
+}
+
+.category h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    color: #181E4B;
+    font-weight: 500;
+}
+
+.category h4{
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.category-card{
+    text-align: center;
+}
+
+.category-card p{
+    text-align: center;
+    color: grey;
+}
+
+/*destinations*/
+.destinations{
+    margin-top: 8rem;
+    margin-right: 20px;
+}
+
+.destinations h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin:0 0 2rem 0;
+    color: #181E4B;
+    font-weight: 500;
+}
+
+.destinations h4{
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.destinations-row{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.destinations-card{
+    width: 20.313rem;
+    height: 25rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.clipcheck{
+    width: fit-content;
+    height: 18rem;
+    clip-path: inset(0 0 5% 0 round 10% 0 0%);
+}
+
+.destinations-card-row{
+    display: flex;
+    padding: 0 1rem 0 1rem;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.destinations-card span{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    color: #83869f;
+    font-weight: 600;
+}
+
+.destinations-card-secondrow{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: .5rem;
+   margin-top: 0;
+   margin-left: 1rem;
+}
+
+/*book*/
+.book-row{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-content p{
+    color: #83869f ;
+    margin:0;
+    font-weight: 700;
+}
+
+.book-content h6{
+    font-size: 2.6rem;
+    margin: 0;
+    color: #181E4B;
+    font-weight: 600;
+}
+
+.book-insiderow{
+    margin-bottom: 1.6rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.book-insiderow p{
+    font-weight: 200;
+    font-size: .7rem
+}
+
+.book-insiderow p span{
+    color: #83869f;
+    font-weight: bold;
+}
+
+.book-card{
+    padding: 1rem;
+    border-radius: 1.5rem;
+    height: 20rem;
+    position: relative;
+    margin-right: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: 15px -15px 40px rgb(198, 234, 246);
+    z-index: 20;
+}
+
+.book-card .book-card-p p span{
+    color: grey;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.book-card-p p{
+    font-weight: 600;
+}
+
+.book-cardrow2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book-cardrow3{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.book-cardrow3 p{
+    color:#83869f;
+}
+
+.book-cardrow2 i{
+    color: grey;
+}
+
+.samplecard{
+    height: 6.5rem;
+}
+
+.samplecard{
+    padding: 1rem .5rem 0 1rem;
+    position: relative;
+    z-index: 40;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 1.5rem;
+    margin-left: 10.7rem;
+    margin-top: -10rem;
+}
+
+.samplecard-row{
+    display: flex;
+    align-items: start;
+    gap: 1.5rem;
+}
+
+.samplecardimage img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.samplecardcontent p,h4{
+    font-size: .7rem;
+    margin: 0;
+}
+
+.samplecardcontent p{
+    color: grey;
+    font-weight: 700;
+}
+
+.samplecardcontent p span{
+    color: rgb(152, 55, 221);
+}
+
+.samplecardcontent .sc2{
+    color: black;
+}
+
+.progress-container progress::-webkit-progress-value
+{
+    background-color: violet;
+}
+/*footer*/
+footer .Query{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+footer{
+    padding-right: 3rem;
+}
+.fiverow{
+    display: flex;
+    gap: .5rem;
+    justify-content: space-between;
+}
+
+.storecard{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.storecard{
+    padding-left: .6rem;
+    padding-right: .3rem;
+    height: 2.2rem;
+    width: 6.6rem;
+    border-radius: 1.5rem;
+    background-color: black;
+}
+
+.storecard p{
+    color: white;
+    font-size: .5rem;
+    font-weight:bolder;
+
+}
+
+.Query .one-p{
+    font-size: .7rem;
+}
+
+.Query li{
+    list-style-type: none;
+    color: grey;
+    margin-bottom: .3rem;
+    font-weight: 400;
+}
+
+.Query h1{
+    font-size: 1.5rem;
+}
+.Query .one h1{
+    margin-top: .4rem;
+    color: #181E4B;
+    font-weight: 500;
+    font-size: 2.4rem;
+
+}
+
+.circle {
+    width: 30px; 
+    height: 30px; 
+    background-color: #ffffff; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.instagram-logo {
+    width: 20px; 
+}
+
+.fiver1{
+    gap: 2rem;
+    display: flex;
+}
+
+.five{
+    margin-top: 2rem;
+}
+
+footer .footer-ending p{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: grey;
+    font-weight: 600;
+    font-size: .7rem;
+}
+
+/*Subscribe Section*/
+.subscribe .secondbox{
+    z-index: 3;
+    position: relative;
+    margin-left: 92%;    
+}
+
+.subscribe .mainbox{
+    width: 96%;
+    height: 18rem;
+    background-color: rgba(207, 205, 244, 0.23);
+    position: relative;
+    z-index: 2;
+    border-radius: 6rem 1rem 1rem 1rem;
+    margin-top: -3rem;
+    overflow: hidden;    
+}
+
+.subscribe .thirdbox{
+    transform: rotate(-270deg);
+    position: relative;
+    z-index: 1;
+    margin-left: 95%;
+    margin-top: -9rem;
+}
+
+.subscribe{
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+}
+
+.mainbox img{
+    margin-top: 5.5rem;
+    height: 70%;
+    width: 30%;
+    position: relative;
+    opacity: 0.1;
+}
+
+.mainbox .img2{
+    transform: rotate(260deg);
+    height: 70%;
+    width: 30%;
+    margin-left: 74%;
+    margin-top: -30%;
+    display: block;
+}
+
+.mainbox .main-heading{
+    margin-left: 20%;
+    margin-top: -10rem;
+    position: relative;
+    color:  rgb(75, 101, 128);
+    font-weight: bold;
+}
+
+.mainbox .main-heading h4{
+    font-size: 1.6rem;
+}
+
+.mainbox .main-heading h5{
+    margin-left: 15%;
+    margin-top: .5rem;
+    font-size: 1.6rem;
+}
+
+.email-box{
+    border: none;
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    font-weight: 400;
+}
+.whitebox{
+    margin-top: -1rem;
+    margin-left: 30%;
+    padding-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 3.15rem;
+    border-radius: .5rem;
+    background-color: white;
+    width: 310px;
+}
+
+.orangebox{
+    margin-top: -3.1rem;
+    margin-left: 65%;
+    border-radius: .5rem;
+    padding-left: 1.5rem;
+    width: 6.5rem;
+    height: 3.15rem;
+    background-color: #FF876A;
+    color: white;
+    display: flex;
+    align-items: center;  
+}
+
+.clipcheck { 
+    overflow: hidden;
+}
+
+
